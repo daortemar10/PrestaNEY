@@ -1,0 +1,21 @@
+.apps-icons button.btn:before {
+    background-position: right;
+}
+
+#top-nav.navbar .navbar-nav .nav-item a:before {
+    left: initial;
+    right: -8px;
+}
+
+#posts .post > div .post-link:after {
+    transform: rotateY(180deg);
+}
+
+#posts .post > div .post-link:hover:after {
+    margin-right: 6px;
+    margin-left: 2px;
+}
+
+#download h2.section-title, #download span.section-text {
+    text-align: right;
+}
